@@ -17,7 +17,7 @@ It integrates well with existing unix tools for other purposes.
 ### Installation
 
 ```
-curl -s -o ./mole https://github.com/sauercrowd/mole/releases/download/v0.0.1/mole
+curl -Lso ./mole https://github.com/sauercrowd/mole/releases/download/v0.0.1/mole
 chmod +x ./mole
 ```
 
