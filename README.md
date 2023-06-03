@@ -14,6 +14,7 @@ It deliberately isolates as little as possible, focusing on simplicity
 - add mounts using `$ mount --bind`
 - get a shell with `$ chroot`
 - uses host network interfaces
+- no 3rd party dependencies
 
 Mole is great when you're using docker images purely as a packaging format,
 e.g. on a VM which whole purpose it is to run a docker image.
