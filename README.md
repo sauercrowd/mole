@@ -1,6 +1,6 @@
 # Mole
 
-**A simole tool to run containers with minimal isolatio**
+**A simole tool to run containers with minimal isolation**
 
 Docker has a lot of stuff built in, provide an environment that feels like a VM.
 But sometimes - we don't need that.
