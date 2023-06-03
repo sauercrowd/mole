@@ -5,12 +5,11 @@
 Docker has a lot of stuff built in, provide an environment that feels like a VM.
 But sometimes - we don't need that.
 
-Docker images are great for packaging - and that's the only thing that mole focuses on.
-Mole is applying the minimal amount of isolation necessary to run the image - that's it.
-Great for just running an image on a VM.
 
-Mole is following the Unix philosophy: a simple, clear purpose and interface.
-It integrates well with existing unix tools for other purposes.
+Mole is a simole tool to execute confainers, following the unix philosopher.
+It integrates well with existing unix tools for other purposes, as it simply exposes the container as a directory to you.
+
+It deliberately isolates as little as possible, focusing on simplicity
 
 ## Usage
 
