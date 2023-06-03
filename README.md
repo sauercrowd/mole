@@ -1,6 +1,6 @@
 # Mole
 
-**A simple tool to run containers with minimal isolation**
+**A simple tool to Docker images with minimal isolation**
 
 Docker has a lot of stuff built in, provide an interface that feels like a VM.
 
