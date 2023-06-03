@@ -2,14 +2,22 @@
 
 **A simple tool to run containers with minimal isolation**
 
-Docker has a lot of stuff built in, provide an environment that feels like a VM.
-But sometimes - we don't need that.
+Docker has a lot of stuff built in, provide an interface that feels like a VM.
 
-
-Mole is a simole tool to execute confainers, following the unix philosopher.
+Mole is a simple tool to execute confainers, following the unix philosophy.
 It integrates well with existing unix tools for other purposes, as it simply exposes the container as a directory to you.
 
 It deliberately isolates as little as possible, focusing on simplicity
+
+## Features
+- container is just a directory, you can copy files in and out any time
+- add mounts using `$ mount --bind`
+- get a shell with `$ chroot`
+- uses host network interfaces
+
+Mole is great when you're using docker images purely as a packaging format,
+e.g. on a VM which whole purpose it is to run a docker image.
+
 
 ## Usage
 
