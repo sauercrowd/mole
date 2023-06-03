@@ -4,7 +4,11 @@
 
 Docker has a lot of stuff built in, providing a great interface that feels like a VM.
 
-Mole is a simple tool to execute confainers, following the unix philosophy.
+That's great, but sometimes you just want to run it. No need for additional isolation if your running it on a VM.
+No need to isolate the filesystem and make it hard to copy things in and out. No need for extra network interfaces and configuration.
+
+That's what mole does. It's goal is to get as close as possible to "what if your docker image just runs on the VM instead of in a container".
+
 Mole is there to run the image as easily as possible, deferring further isolation to other tools.
 
 It integrates well with existing unix tools for other purposes, as it simply exposes the container as a directory to you.
